@@ -1,0 +1,23 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: sierkje
+  description: Apache 2.4 for Debian or Ubuntu.
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.2
+  platforms:
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+    - name: Ubuntu
+      versions:
+        - xenial
+  galaxy_tags:
+    - web
+    - apache
+    - webserver
+    - html
+
+allow_duplicates: yes
